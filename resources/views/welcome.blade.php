@@ -84,7 +84,7 @@ switch ($uri) {
                 </li>
                 <li {{$index}} >
                     <a href="{{ route('home') }}"><i class="fa fa-dashboard"></i> <span
-                                class="nav-label">Dashboards</span>
+                                class="nav-label">Dashboards View</span>
                     </a>
                 </li>
 
