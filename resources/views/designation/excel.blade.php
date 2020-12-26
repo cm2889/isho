@@ -9,12 +9,9 @@
             padding-top: 20px;
             clear: both;
         }
-
         #hidden_div {
             display: none;
         }
-
-
     </style>
 
 
@@ -108,10 +105,9 @@
 
 
 
-    @endsection
+@endsection
 
-    @section('extra')
+@section('extra')
 
 
 @endsection
-

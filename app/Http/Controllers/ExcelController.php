@@ -32,7 +32,7 @@ class ExcelController extends Controller
         Excel::import(new DesignationImport, request()->file('file'));
 
 
-        return redirect()->route('product.price.index',compact('product'));
+        toast(' Successfully Upload csv !', 'success');
 
 
     }

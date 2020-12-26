@@ -9,11 +9,7 @@
 
                 <div class="ibox float-e-margins">
 
-                    <div class="ibox-title">
-                        <h5 style="color: #3f51b5"> Product Information </h5>
-                        <a class="btn-primary pull-right btn-sm" href="{{route('product.create')}}" data-toggle="modal">Add Product</a>
 
-                    </div>
                     <div class="ibox-content">
 
                         <div class="table-responsive">

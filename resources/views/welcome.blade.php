@@ -181,17 +181,10 @@ switch ($uri) {
         <script src="{{asset('js/plugins/metisMenu/jquery.metisMenu.js')}}"></script>
         <script src="{{asset('js/plugins/slimscroll/jquery.slimscroll.min.js')}}"></script>
 
-        <!-- Flot -->
-        <script src="{{asset('js/plugins/flot/jquery.flot.js')}}"></script>
-        <script src="{{asset('js/plugins/flot/jquery.flot.tooltip.min.js')}}"></script>
-        <script src="{{asset('js/plugins/flot/jquery.flot.spline.js')}}"></script>
-        <script src="{{asset('js/plugins/flot/jquery.flot.resize.js')}}"></script>
-        <script src="{{asset('js/plugins/flot/jquery.flot.pie.js')}}"></script>
+
         <script src="{{asset('js/plugins/select2/select2.full.min.js')}}"></script>
 
-        <!-- Peity -->
-        <script src="{{asset('js/plugins/peity/jquery.peity.min.js')}}"></script>
-        <script src="{{asset('js/demo/peity-demo.js')}}"></script>
+
 
         <!-- Custom and plugin javascript -->
         <script src="{{asset('js/inspinia.js')}}"></script>
@@ -200,17 +193,8 @@ switch ($uri) {
         <!-- jQuery UI -->
         <script src="{{asset('js/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
 
-        <!-- GITTER -->
-        <script src="{{asset('js/plugins/gritter/jquery.gritter.min.js')}}"></script>
 
-        <!-- Sparkline -->
-        <script src="{{asset('js/plugins/sparkline/jquery.sparkline.min.js')}}"></script>
 
-        <!-- Sparkline demo data  -->
-        <script src="{{asset('js/demo/sparkline-demo.js')}}"></script>
-
-        <!-- ChartJS-->
-        <script src="{{asset('js/plugins/chartJs/Chart.min.js')}}"></script>
 
         <!-- Toastr -->
         <script src="{{asset('js/plugins/toastr/toastr.min.js')}}"></script>
@@ -229,8 +213,7 @@ switch ($uri) {
             document.getElementById('asdf').value = m + '/' + d + '/' + y;
         </script>
         <script src="{{asset('js/plugins/datapicker/bootstrap-datepicker.js')}}"></script>
-        <!-- Clock picker -->
-        <script src="{{asset('js/plugins/clockpicker/clockpicker.js')}}"></script>
+
 
 
         <script src="{{asset('js/plugins/dataTables/datatables.min.js')}}"></script>
@@ -244,11 +227,7 @@ switch ($uri) {
         <script type="text/javascript">
 
 
-            $(".select2_demo_blood").select2({
-                placeholder: "Select Blood Group",
-                allowClear: true,
 
-            });
 
         </script>
         <script>
