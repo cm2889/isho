@@ -77,3 +77,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+##Installation
+
+- ```composer update```
+- ```cp .env.example .env```
+- ```php artisan  key:generate```
+- update ```.env``` file along with *DB config* and *mail config*
+-  ```php artisan migrate:fresh```
+- ```php artisan db:seed``` (Seeds 10 ```Users```, 100 ```Products``` and 20 `Colors`)
+- `php artisan serve`
+
+Features: 
+1. Guest user: View product,  Search prodcut.
+Prodcut wise View Color,price,Image
+2. Admin:
+ 2.1 Registatrion
+ 2.2 Email  Verification.
+ 2.3 Login & Login With Gmail(Verification email first)
+ 2.4 CRUD Prodcut.
+ 2.5 CRUD Color.
+ 2.6 Product Wise Set color and Price.
+ 2.7 Color and Prodcut Name Wise Inventory.
+ 2.8 CSV import into Inventory Section.
+ 2.9 Bar Code Generator  every Category Product Insert and update Section.
+ 2.10 Image Removed from Folder when admin attempt delete this Product. 
